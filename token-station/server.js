@@ -197,8 +197,7 @@ async function handleRequest(req, res) {
   if (pathname === '/api/user/profile' && method === 'GET') {
     const user = getUserFromToken(req);
     if (!user) return json(res, 401, { error: '未登录' });pathname)      pathname.replace(/^\//, ''))                              
-    
-    const { password, ...safe } = user;
+    process.env.PORT || 3456;    const { password, ...safe } = user;
     return json(res, 200, { user: safe });
   }
 
