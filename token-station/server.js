@@ -196,7 +196,8 @@ async function handleRequest(req, res) {
   // User profile
   if (pathname === '/api/user/profile' && method === 'GET') {
     const user = getUserFromToken(req);
-    if (!user) return json(res, 401, { error: '未登录' });
+    if (!user) return json(res, 401, { error: '未登录' });pathname)      pathname.replace(/^\//, ''))                              
+    
     const { password, ...safe } = user;
     return json(res, 200, { user: safe });
   }
