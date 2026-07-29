@@ -1,0 +1,12 @@
+[
+  {
+    "id": "42e201db",
+    "userId": "admin-001",
+    "apiKeyId": "28718a32",
+    "model": "gpt-4",
+    "tokens": 53,
+    "cost": 0.00157,
+    "endpoint": "/v1/chat/completions",
+    "createdAt": "2026-07-29T06:54:54.081Z"
+  }
+]

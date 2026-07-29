@@ -1,0 +1,40 @@
+[
+  {
+    "id": "admin-001",
+    "username": "admin",
+    "email": "admin@tokenstation.com",
+    "password": "e5b5ab11471893be6ae7352ce22b7cbdb6fbfd00db9778463bcd3a890b5b8ff5",
+    "role": "admin",
+    "tokens": 999946,
+    "tokensUsed": 53,
+    "status": "active",
+    "createdAt": "2026-07-29T06:54:04.689Z",
+    "token": "tok-33b69e68c6f8c2bcbfb942d30c3a54978b1d1206f407f5ad",
+    "lastLoginAt": "2026-07-29T06:54:53.996Z"
+  },
+  {
+    "id": "demo-001",
+    "username": "demo",
+    "email": "demo@example.com",
+    "password": "93daedbd9ce371856f3e1e38335bdde6d7978d1a178ff935aef2e15ca14507a3",
+    "role": "user",
+    "tokens": 1000,
+    "tokensUsed": 0,
+    "status": "active",
+    "createdAt": "2026-07-29T06:54:04.690Z",
+    "token": "tok-5efa120d8e8106baede97d4a202e9d082ff9f869baf0a1ba",
+    "lastLoginAt": "2026-07-29T06:59:17.950Z"
+  },
+  {
+    "id": "06e84b71",
+    "username": "testuser",
+    "email": "test@test.com",
+    "password": "78f17257228fe6dad618aa5bf9d19239087f2a098eda8c9ff390a2381a680853",
+    "role": "user",
+    "tokens": 100,
+    "tokensUsed": 0,
+    "status": "active",
+    "token": "tok-b6663dedff463ee560ed6d591961dfb21951aca3448953de",
+    "createdAt": "2026-07-29T06:54:54.096Z"
+  }
+]

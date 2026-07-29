@@ -1,0 +1,72 @@
+[
+  {
+    "id": "free",
+    "name": "免费版",
+    "price": 0,
+    "tokens": 1000,
+    "rpm": 10,
+    "concurrent": 1,
+    "models": [
+      "gpt-3.5-turbo"
+    ],
+    "features": [
+      "基础API接入",
+      "社区支持"
+    ]
+  },
+  {
+    "id": "starter",
+    "name": "入门版",
+    "price": 29,
+    "tokens": 50000,
+    "rpm": 60,
+    "concurrent": 3,
+    "models": [
+      "gpt-3.5-turbo",
+      "gpt-4"
+    ],
+    "features": [
+      "全部模型",
+      "优先队列",
+      "邮件支持"
+    ]
+  },
+  {
+    "id": "pro",
+    "name": "专业版",
+    "price": 99,
+    "tokens": 300000,
+    "rpm": 300,
+    "concurrent": 10,
+    "models": [
+      "gpt-3.5-turbo",
+      "gpt-4",
+      "gpt-4-turbo",
+      "claude-3"
+    ],
+    "features": [
+      "全部模型",
+      "专属通道",
+      "技术支持",
+      "SLA 99.9%"
+    ]
+  },
+  {
+    "id": "enterprise",
+    "name": "企业版",
+    "price": 499,
+    "tokens": 2000000,
+    "rpm": 1000,
+    "concurrent": 50,
+    "models": [
+      "all"
+    ],
+    "features": [
+      "全部模型",
+      "专属算力",
+      "7x24h支持",
+      "定制化方案",
+      "SLA 99.99%"
+    ]
+  }
+]

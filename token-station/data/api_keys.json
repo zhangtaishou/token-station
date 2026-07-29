@@ -1,0 +1,14 @@
+[
+  {
+    "id": "28718a32",
+    "userId": "admin-001",
+    "name": "????",
+    "key": "sk-8a2668925877dc37ed7c858e9b8eae5504f77f163d74bab4652e147cdc2cab13",
+    "keyPrefix": "sk-8a2668925",
+    "model": "gpt-4",
+    "isActive": true,
+    "createdAt": "2026-07-29T06:54:54.071Z",
+    "lastUsedAt": "2026-07-29T06:54:54.081Z",
+    "usageCount": 1
+  }
+]
