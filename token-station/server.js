@@ -4,7 +4,7 @@ const path = require('path');
 const crypto = require('crypto');
 const url = require('url');
 
-const PORT = 3456;
+const PORT = process.env.PORT || 3456;
 const DATA_DIR = path.join(__dirname, 'data');
 const PUBLIC_DIR = path.join(__dirname, 'public');
 
@@ -197,7 +197,8 @@ async function handleRequest(req, res) {
   if (pathname === '/api/user/profile' && method === 'GET') {
     const user = getUserFromToken(req);
     if (!user) return json(res, 401, { error: '未登录' });pathname)      pathname.replace(/^\//, ''))                              
-    process.env.PORT || 3456;    const { password, ...safe } = user;
+    
+    const { password, ...safe } = user;
     return json(res, 200, { user: safe });
   }
 
